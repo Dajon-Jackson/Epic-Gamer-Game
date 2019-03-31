@@ -1,0 +1,25 @@
+Changenotes for Epic Gamer Game
+
+~~Python Project Build (3/10/2019)~~
+-Additions-
+Added inventory and ability to check inventory
+Added currency
+Added fishing
+Added roamability to the Town so now the game is open world & free roam.
+Enemys now drop cash based on total stats/4 (rounded down)
+Enemies also give xp based on cash gain
+Added a Store to sell fish and other inventory items
+Added xp as well as a level up function that checks for level ups in town
+	The level up requirement increases by %50 each level
+	XP is reset to 0
+	Stat increases are based on class
+	Shows player level and xp to next level
+Added ability to check inventory
+
+-Changes-
+Made quest into a redo-able function for hardcore grinding
+Instead of using a while function that closes the game when you die, it now uses sys.exit() instead.
+
+-Fixes-
+Fixed magic attacks not telling how much damage was done
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
